@@ -1,6 +1,6 @@
 ## Synopsis
 
-Parsing midi accurately is hard. Thankfully some smart people developed [Midifile](http://midifile.sapp.org/), a C++ library that's very good at doing that ! This is a wrapper node api to its functionalities
+Parsing midi accurately is hard. Thankfully some smart people developed [Midifile](http://midifile.sapp.org/), a C++ library that's very good at doing that ! This is a wrapper node api to its functionalities.
 
 ## Code Example
 ```html
