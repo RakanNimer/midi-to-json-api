@@ -18,7 +18,7 @@ Parsing midi accurately is hard. Thankfully some smart people developed [Midifil
 </html>
 ```
 
-That's it, it will return midiFile nicely formatted in JSON
+That's it, it will return midiFile nicely formatted in JSON.
 
 ## Installation
 
@@ -29,4 +29,4 @@ npm build && npm install && npm start
 ```
 
 ## Credits
-The great work at https://github.com/craigsapp/midifile
+The great work from @craigsapp :  https://github.com/craigsapp/midifile
