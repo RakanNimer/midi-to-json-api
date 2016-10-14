@@ -1,0 +1,20 @@
+{
+  "name": "midifile-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "git clone https://github.com/craigsapp/midifile && cd midifile/ && make && make programs",
+    "start": "chmod +x bin/midi2text && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ssh": "ssh -i /private/keys/aws/rakannimer-gmail.pem ubuntu@54.171.205.45",
+    "rsync": "rsync -Pav -e 'ssh -i /private/keys/aws/rakannimer-gmail.pem' ./*.{js,json}  ubuntu@54.171.205.45:/home/bitnami/app  "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-fileupload": "0.0.5"
+  }
+}
